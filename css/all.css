@@ -1,0 +1,380 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {    
+    max-width: 100%;
+    height: auto;
+}
+
+/*css reset end*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+.h1 {
+    font-size: 40px;
+}
+
+h2,
+.h2 {
+    font-size: 36px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 20px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,.h6{
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center top;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.purple-bg {
+    background: #8A82CC;
+}
+
+.purple {
+    color: #8A82CC;
+}
+
+.pink-bg {
+    background: #FFA782;
+}
+
+.yellow-bg {
+    background: #F5D005;
+}
+
+.blue-bg {
+    background: #559AC8;
+}
+.green-bg{
+    background: olivedrab;
+}
+
+header {
+    margin-bottom: 200px;
+}
+
+.headerBanner {
+    height: 380px;
+    background-image: url('https://hexschool.github.io/JavaScript_HomeWork/assets/the-urban-landscape-1698285.png');
+    background-position: center -150px;
+}
+
+.headerTitle {
+    text-align: center;    
+    padding-top: 69px;
+}
+.headerTitle a{
+    color: #fff;
+}
+
+.areaSelect {
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 75px;
+}
+
+.areaSelectList {
+    width: 452px;
+    height: 48px;
+    font-size: 18px;
+    padding-left: 9.5px;
+    background: rgba(255, 255, 255, 0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+.hotArea {
+    width: 800px;
+    margin: 0 auto 49px auto;
+    padding: 20px 26px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+}
+
+.hotArea h2 {
+    margin-bottom: 14px;
+}
+
+.hotAreaList {
+    justify-content: space-between;
+    padding: 0 26px;
+}
+
+.hotAreaList li input {
+    color: #fff;
+    text-align: center;
+    padding: 11px 34px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hotAreaList li input:hover{
+    opacity: 0.8;
+}
+
+.headerLine {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLine::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: 1px dashed #559AC8;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #559AC8;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+.down{
+    margin: 6px auto;
+    width: 16px;
+    height: 11px;
+    background: #559AC8;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-mask: url(https://hexschool.github.io/JavaScript_HomeWork/assets/icons_down.png) center/contain;
+    mask: url(https://hexschool.github.io/JavaScript_HomeWork/assets/icons_down.png) center/contain;
+}
+
+.areaTitle {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.areaList{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.areaListCard {
+    width: 49%;
+    margin-bottom: 36px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+}
+
+.cardImg{
+    color: #fff;
+    width: 100%;
+    height: 155px;
+    padding: 14px 22px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cardText{
+    padding: 16px 22px;
+}
+.cardText >p{
+    margin-bottom: 16px;
+}
+
+.cardText .tel{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background: #559AC8;
+    padding: 24px 0;
+    font-size: 14px;
+}
+
+footer p,footer span{
+    text-align: center;
+}
+footer p{
+    color: #fff;
+    margin-bottom: 15px;
+}
+footer span{
+    display: block;
+    color: #FFD366;
+}
